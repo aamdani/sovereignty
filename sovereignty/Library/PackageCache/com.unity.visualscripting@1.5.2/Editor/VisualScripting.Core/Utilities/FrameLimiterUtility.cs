@@ -1,34 +1,3 @@
-using UnityEditor;
-using UnityEngine;
-
-namespace Unity.VisualScripting
-{
-    public class FrameLimiterUtility
-    {
-        public FrameLimiterUtility(uint fpsLimit)
-        {
-            SetFPSLimit(fpsLimit);
-        }
-
-        public void SetFPSLimit(uint fpsLimit)
-        {
-            _frameTime = 1 / (double)fpsLimit;
-        }
-
-        public bool IsWithinFPSLimit()
-        {
-            var currentTime = EditorApplication.timeSinceStartup;
-            var diff = currentTime - _lastCallTime;
-            if (diff > _frameTime)
-            {
-                _lastCallTime = currentTime;
-                return true;
-            }
-
-            return false;
-        }
-
-        private double _frameTime;
-        private double _lastCallTime = 0;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:82f207bc2d2822be711fc54be7b0b358083263ffe9a92d2ab46ef29e8eb6be7d
+size 798

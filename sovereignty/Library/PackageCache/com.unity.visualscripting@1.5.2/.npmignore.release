@@ -1,6 +1,3 @@
-# For release package builds ignore the following
-Samples/**
-Samples.meta
-Samples~/**
-Samples~.meta
-.npmignore.dev
+version https://git-lfs.github.com/spec/v1
+oid sha256:16ab93b4713b064a87a3ab3f1a0340135d54469706541dd78729a724e2b2edc0
+size 121

@@ -1,14 +1,3 @@
-namespace Unity.VisualScripting
-{
-    [Plugin(BoltCore.ID)]
-    internal class Acknowledgement_MiscUtil : PluginAcknowledgement
-    {
-        public Acknowledgement_MiscUtil(Plugin plugin) : base(plugin) { }
-
-        public override string title => "MiscUtil";
-        public override string author => "Jon Skeet";
-        public override int? copyrightYear => 2008;
-        public override string url => "http://www.yoda.arachsys.com/csharp/miscutil/index.html";
-        public override string licenseText => Licenses.MiscUtil;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39d1afea567161dd942c18a2259a75c6f24eea639c292ea60084833286821da5
+size 537
