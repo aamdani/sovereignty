@@ -5068,3 +5068,5 @@
 /sovereignty/Library/Artifacts/fe/fe6ee1b06a7380d911adc5c6634f63d2 filter=lfs diff=lfs merge=lfs -text
 /sovereignty/Library/Artifacts/fe/fee1c45efde477f7b506b2852af1e659 filter=lfs diff=lfs merge=lfs -text
 /sovereignty/Library/Artifacts/ff/ff4b264087153eb961cb15acae2a68e8 filter=lfs diff=lfs merge=lfs -text
+*.DS_Store filter=lfs diff=lfs merge=lfs -text
+*.config filter=lfs diff=lfs merge=lfs -text
